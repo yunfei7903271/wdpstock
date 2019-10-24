@@ -57,7 +57,14 @@ export class Stock extends Component {
       width: '10%',
       //sorter: (a, b) => a.name === b.name,
     },
+    {
 
+      title: '出现次数',
+      dataIndex: 'count',
+      key: 'count',
+      width: '10%',
+      //sorter: (a, b) => a.name === b.name,
+    },
     {
 
       title: '研报',

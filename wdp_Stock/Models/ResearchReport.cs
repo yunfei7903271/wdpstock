@@ -23,7 +23,7 @@ namespace wdp_Stock.Models
         public string DateTime { get; set; }
 
         /// <summary>
-        /// 机构名称
+        /// 机构名称http://activity.ths123.com/acmake/cache/311.html
         /// </summary>
         public string InsName { get; set; }
 
@@ -99,5 +99,8 @@ namespace wdp_Stock.Models
         /// 类型? 不明
         /// </summary>
         public string Type { get; set; }
+
+
+        public int Count { get; set; }
     }
 }
